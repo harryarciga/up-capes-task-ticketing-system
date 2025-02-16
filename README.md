@@ -15,7 +15,7 @@ Before running these files (especially for testing purposes), it is recommended 
 Here are the step by step process on how to run these files:
 
  1. In Github, download these files as ZIP file. You may click the green button with the 'Code' label and select the 'Download as ZIP file'. You may also type `git clone https://github.com/harryarciga/upcapes-task-ticketing-system.git` on your terminal to download.
- 2. Extract the ZIP file you have downloaded.
+ 2. Extract the ZIP file you have downloaded. Also, before running the code, run this command to install additional modules and dependencies: `pip install -r requirements.txt` or you can manually type `pip install <module>` for every line in the .txt file.
  3. Ask me, [Harry Arciga](https://www.facebook.com/harry.arciga.9) for the other two files: `credentials.json` and `apikeys.py` (I can't upload these in Github since I tried it and all the credentials here are automatically changed by Google Cloud).
  4. Make sure to put `credentials.json` and `apikeys.py` in the same folder as `main.py` and `task_checker.py`.
  5. Open the folder in VS Code (if you use VS Code).
